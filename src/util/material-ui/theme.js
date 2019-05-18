@@ -15,10 +15,10 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: '#bada55',
+      main: '#333',
     },
     secondary: {
-      main: '#6a1f50',
+      main: '#ffffff',
     },
   },
 });
