@@ -3,7 +3,7 @@ import {
   AppBar, InputBase, Toolbar, Typography, withStyles, IconButton,
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
+import AccountCircle from '@material-ui/icons/AccountCircle';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 
 const styles = theme => ({
@@ -73,7 +73,20 @@ const Header = ({ classes }) => (
         <IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
           <MenuIcon />
         </IconButton>
-        <h1>rfd</h1>
+        <Typography
+          component="h2"
+          variant="h5"
+          color="inherit"
+          align="center"
+          noWrap
+          className={
+            classes.grow}
+        >
+        r.f.d.
+        </Typography>
+        <IconButton>
+          <AccountCircle color="secondary" />
+        </IconButton>
       </Toolbar>
     </AppBar>
   </div>
